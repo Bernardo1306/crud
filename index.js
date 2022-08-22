@@ -3,7 +3,7 @@ const express = require("express");
 const server = express();
 
 // Read JSON
-server.app.use(
+server.use(
     express.urlencoded({
         extended: true,
     }),
